@@ -1,0 +1,102 @@
+h1{
+    color: rgb(234, 255, 0);
+    font-size: 70px;
+    text-align: center;
+    box-shadow: 10px 10px 10px red;
+    box-sizing: content-box;
+    animation-name: titulo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+h2{
+    color: white;
+    background-color: red;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+    animation-name: animacionCalzado;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+h3{
+    color: white;
+    background-color: rgb(179, 171, 25);
+    font-size: 40px;
+    text-align: center;
+    animation-name: animacionCalzado;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+h4{
+    color: white;
+    background-color: green;
+    font-size: 40px;
+    text-align: center;
+    animation-name: animacionCalzado;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1571829604981-ea159f94e5ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+    background-repeat: no-repeat;
+}
+
+img{
+    margin: 5px;
+}
+li{
+    color: white;
+}
+
+@keyframes animacionCalzado {
+    0%{
+        background-color: rgb(255, 94, 0);
+    }
+    10%{
+        background-color: rgb(173, 148, 2);
+    }
+    20%{
+        background-color: rgb(66, 128, 15);
+    }
+    30%{
+        background-color: rgb(0, 128, 17);
+    }
+    40%{
+        background-color: rgb(43, 137, 226);
+    }
+    50%{
+        background-color: rgb(4, 0, 255);
+    }
+    60%{
+        background-color: rgb(107, 43, 226);
+    }
+    70%{
+        background-color: rgb(107, 0, 128);
+    }
+    80%{
+        background-color: rgb(220, 43, 226);
+    }
+    90%{
+        background-color: rgb(226, 43, 134);
+    }
+    100%{
+        background-color: rgb(255, 0, 43);
+    }
+
+}
+@keyframes titulo{
+    0%{
+        background-color: rgb(58, 58, 58);
+    }
+    50%{
+        background-color: rgb(26, 26, 26);
+    }
+    75%{
+        background-color: rgb(83, 83, 83);
+    }
+    100%{
+        background-color: rgb(56, 56, 56);
+    }
+}
